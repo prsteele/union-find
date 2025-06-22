@@ -1,10 +1,10 @@
 Name:            union-find
-Version:         0.2
+Version:         0.3
 License:         BSD3
 License-File:    LICENSE
 Author:          Thomas Schilling <nominolo@googlemail.com>
-Maintainer:      Thomas Schilling <nominolo@googlemail.com>
-Homepage:        http://github.com/nominolo/union-find
+Maintainer:      Patrick Steele <prsteele@proton.me>
+Homepage:        http://github.com/prsteele/union-find
 Synopsis:        Efficient union and equivalence testing of sets.
 Description:
   The Union\/Find algorithm implements these operations in
@@ -15,7 +15,7 @@ Description:
     2. Create a union of two equivalence classes.
   .
     3. Look up the descriptor of the equivalence class.
-  
+
 Category:        Algorithms, Data
 Stability:       provisional
 Build-Type:      Simple
@@ -37,4 +37,3 @@ Library
     Data.UnionFind.ST
     Data.UnionFind.IntMap
   Hs-Source-Dirs: src
-
